@@ -1,0 +1,45 @@
+.footer {
+    background-color: $hreaderBackgroundColor;
+    text-align: center;
+    height: 5rem;
+
+}
+
+.footpara {
+
+    &--text {
+
+        color: $footerTextColor;
+        font-size: 0.9em;
+        font-weight: bold;
+        word-spacing: 0.1rem;
+        letter-spacing: 0.1rem;
+        font-family: $textFont-family;
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width:360px) {
+
+    .footpara {
+
+        &--text {
+            font-size: 0.8em;
+            padding-top: 2rem;
+        }
+    }
+
+}
+
+
+@media (max-width:320px) {
+
+    .footpara {
+
+        &--text {
+            font-size: 0.7em;
+            padding-top: 2rem;
+        }
+    }
+
+}

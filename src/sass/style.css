@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=PT+Serif&family=Source+Sans+Pro:wght@600&family=Yellowtail&display=swap" rel="stylesheet');
+.card {
+  margin-bottom: 4rem;
+  -webkit-box-shadow: 0px 6px 6px #40280A;
+          box-shadow: 0px 6px 6px #40280A;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 0 0 #40280A;
+          box-shadow: 0 0 0 #40280A;
+}
+
+.viewmoreBtn {
+  background-color: #BF344D;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  word-spacing: 0.2rem;
+}
+
+.viewmoreBtn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.searchPokemon {
+  margin-bottom: 2rem;
+}
+
+.navbar {
+  background-color: #F2BE22;
+}
+
+.navbar__logo {
+  color: #0433BF !important;
+  font-size: 2.8em;
+  font-weight: bold;
+  font-family: "Yellowtail", cursive;
+  padding-left: 7rem;
+}
+
+.navbar__nav-link {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Averia Serif Libre", cursive;
+  color: #240480 !important;
+  padding-right: 5rem !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1.0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar__logo {
+    font-size: 2.5em;
+    padding-left: 0.8rem;
+  }
+  .navbar__nav-link {
+    font-size: 1.5em;
+    padding-top: 1rem;
+    padding-right: 2rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar__logo {
+    font-size: 2.5em;
+    padding-left: 0.8rem;
+  }
+  .navbar__nav-link {
+    font-size: 1.5em;
+    padding-top: 1rem;
+    padding-left: 1.8rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar__logo {
+    font-size: 1.8em;
+    padding-left: 0.8rem;
+  }
+  .navbar__nav-link {
+    font-size: 1em;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+  }
+}
+
+@media (max-width: 411px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar__logo {
+    font-size: 1.8em;
+    padding-left: 0.8rem;
+  }
+  .navbar__nav-link {
+    font-size: 1em;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar__logo {
+    font-size: 1.6em;
+  }
+  .navbar__nav-link {
+    font-size: 1em;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar__logo {
+    font-size: 1.6em;
+  }
+  .navbar__nav-link {
+    font-size: 1em;
+    padding-top: 1rem;
+  }
+}
+
+.footer {
+  background-color: #F2BE22;
+  text-align: center;
+  height: 5rem;
+}
+
+.footpara--text {
+  color: #000000;
+  font-size: 0.9em;
+  font-weight: bold;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
+  font-family: "PT Serif", serif;
+  padding-top: 2rem;
+}
+
+@media (max-width: 360px) {
+  .footpara--text {
+    font-size: 0.8em;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .footpara--text {
+    font-size: 0.7em;
+    padding-top: 2rem;
+  }
+}
+
+.contactForm {
+  width: 85%;
+  margin-left: 4rem;
+  margin-bottom: 10rem;
+}
+
+.contactForm__heading {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.contactForm__heading--headingMain {
+  font-family: "PT Serif", serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.contactForm__row {
+  padding-left: 6rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  width: 85%;
+}
+
+.contactForm__row__label {
+  font-weight: bold;
+  font-family: "PT Serif", serif;
+  font-size: 1em;
+  padding-top: 0.5rem;
+}
+
+.contactForm__btn {
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.contactForm__btn--sendFormbtn {
+  background-color: #BF344D;
+  margin-left: 70%;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  width: 20%;
+}
+
+.contactForm__btn--sendFormbtn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (max-width: 1024px) {
+  .contactForm {
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 8rem;
+  }
+  .contactForm__heading {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .contactForm__row {
+    padding-left: 0rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+  .contactForm__row__label {
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 0.5rem;
+  }
+  .contactForm__btn--sendFormbtn {
+    margin-left: 28%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactForm {
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 5rem;
+  }
+  .contactForm__heading {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .contactForm__row {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+  .contactForm__row__label {
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 0.5rem;
+  }
+  .contactForm__btn--sendFormbtn {
+    margin-left: 68%;
+  }
+}
+
+@media (max-width: 414px) {
+  .contactForm {
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+  .contactForm__heading {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .contactForm__row {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+  .contactForm__row__label {
+    font-weight: bold;
+    font-size: 0.8em;
+    padding-top: 0.5rem;
+  }
+  .contactForm__btn--sendFormbtn {
+    margin-left: 62%;
+  }
+}
+
+@media (max-width: 411px) {
+  .contactForm {
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+  .contactForm__heading {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .contactForm__row {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+  .contactForm__row__label {
+    font-weight: bold;
+    font-size: 0.8em;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .contactForm {
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+  .contactForm__heading {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .contactForm__row {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+  .contactForm__row__label {
+    font-weight: bold;
+    font-size: 0.9em;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .contactForm {
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+  .contactForm__heading {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .contactForm__row {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+  .contactForm__row__label {
+    font-size: 0.8em;
+    padding-top: 0.4rem;
+  }
+  .contactForm__btn--sendFormbtn {
+    margin-left: 60%;
+  }
+}
+
+.container {
+  padding-top: 3rem;
+}
+
+.formErrors {
+  color: #F23D3D;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.9em;
+}
+
+.placeHolderText {
+  font-size: 0.9em;
+  font-family: "Source Sans Pro", sans-serif;
+  word-spacing: 0.1rem;
+}
+/*# sourceMappingURL=style.css.map */

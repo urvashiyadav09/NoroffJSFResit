@@ -1,0 +1,24 @@
+@import "partials/_variables";
+@import "partials/_fonts";
+@import "partials/_characters";
+@import "partials/_header";
+@import "partials/_footer";
+@import "partials/_contact";
+
+.container {
+    padding-top: 3rem;
+
+
+}
+
+.formErrors {
+    color: $errorsTextColor;
+    font-family: $buttonFont-family;
+    font-size: 0.9em;
+}
+
+.placeHolderText {
+    font-size: 0.9em;
+    font-family: $buttonFont-family;
+    word-spacing: 0.1rem;
+}
