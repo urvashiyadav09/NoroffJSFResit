@@ -1,1 +1,1 @@
-# Noroff React Lesson Code
+# Noroff JSF resit assignment
